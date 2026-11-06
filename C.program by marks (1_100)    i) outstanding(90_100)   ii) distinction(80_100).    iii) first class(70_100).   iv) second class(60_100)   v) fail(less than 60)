@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int a;
+printf("enter a value");
+scanf("%d",&a);
+if(a>100)
+printf("invalid marks");
+else if(a>=90)
+printf("outstanding");
+else if(a>=80)
+printf("distinction");
+else if(a>=70)
+printf("first class");
+else if(a>=60)
+printf("second class");
+else
+printf("failed");
+return 0;
+}
