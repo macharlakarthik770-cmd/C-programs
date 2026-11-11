@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int purchased_amt,bill;
+scanf("%d",&purchased_amt);
+if(purchased_amt<=100)
+bill=purchased_amt-purchased_amt*0.05;
+else if(purchased_amt<=10000)
+bill=purchased_amt-purchased_amt*0.2;
+else
+bill=purchased_amt-purchased_amt*0.6;
+printf("%d",bill);
+}
+    
